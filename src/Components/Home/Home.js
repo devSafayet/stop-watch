@@ -25,7 +25,7 @@ const Home = () => {
             updatedM++;
             updatedS = 0;
         }
-        if (updatedMs === 100) {
+        if (updatedMs === 99) {
             updatedS++;
             updatedMs = 0;
         }
@@ -52,6 +52,7 @@ const Home = () => {
 
                 <div className="stopwatch">
                     <h3 className='heading'>STOP WATCH</h3>
+
                     <Diplay time={time} />
                     <Button status={status} resume={resume} reset={reset} stop={stop} start={start} />
                 </div>

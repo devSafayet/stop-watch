@@ -1,5 +1,5 @@
-.btn {
-    padding: 5px 14px;
+.btn-watch {
+    padding: 4px 10px;
     background-color: #800080;
     color: #ffffff;
     margin: 0px 2px;
@@ -7,4 +7,9 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     display: inline;
+    position: relative;
+}
+
+.all-btn {
+    margin-top: -20px;
 }
